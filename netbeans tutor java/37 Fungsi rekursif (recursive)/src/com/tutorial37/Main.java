@@ -36,9 +36,9 @@ public class Main {
         System.out.println(parameter * factorial(parameter-1));
         return parameter * factorial(parameter-1);
     }
-    
+    // menghitung jumlah
     // recursive ini dia menjalankan dulu 
-    // lalu pada saat recursivenya di hentikan maka pada saat itu mulai menghitung fungsi dari setiap data yang ada pada recursive
+    // lalu pada saat recursivenya di hentikan maka pada saat itu mulai menghitung fungsi dari setiap "data return" yang ada pada recursive
     private static int jumlah(int parameter){
         System.out.println("Parameter = " + parameter);
         if (parameter == 0){
