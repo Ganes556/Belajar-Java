@@ -57,6 +57,7 @@ public class Main {
             dataArray[(dataArray.length-1)-i] = Buffer; // tukar akhir awal
         }
     }
+    // reverse cara biasa
     private static void reverse(int[] dataArray){
         Arrays.sort(dataArray);
         int[] arrayBuffer = Arrays.copyOf(dataArray, dataArray.length);
@@ -65,7 +66,7 @@ public class Main {
               
         }
     }
-
+    // tambah 2 buah array
     private static int[] tambahArray(int[] dataArray1, int[] dataArray2) {
         int[] arrayHasil = new int[dataArray1.length];
         for (int i = 0; i < dataArray1.length; i++) {
