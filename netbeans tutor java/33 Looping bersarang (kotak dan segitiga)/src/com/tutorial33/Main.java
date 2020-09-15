@@ -93,7 +93,7 @@ public class Main {
             }
         }
 
-        System.out.println("\nSetengah segitiga bagian kanan terbalik hadap atas")
+        System.out.println("\nSetengah segitiga bagian kanan terbalik hadap atas");
 	for (int i = 0; i < 5; i++){
             for (int j = 0; j < 5; j++){
                 if (j==i){
@@ -110,7 +110,7 @@ public class Main {
             System.out.println("");
         }
         
-	System.out.println("\nSetengah segitiga bagian kiri terbalik hadap atas")
+	System.out.println("\nSetengah segitiga bagian kiri terbalik hadap atas");
 	for (int i = 0; i < 5; i++){
             for (int j = 0; j < 5; j++){
                 if (j==i){

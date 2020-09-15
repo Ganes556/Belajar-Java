@@ -5,41 +5,95 @@
  */
 package com.tutorial47;
 import java.util.Arrays;
+import java.util.Scanner;
 /**
  *
  * @author Ganes
  */
 public class Main {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-//        int[][] array2D = new int[3][5];        
-//        int[] array1 = {6,6,6,6,6};
-//        int[] array2 = {7,7,7,7,7};
-//        array2D[0] = array1;
-//        array2D[1] = array2;
-//        
-//        
-//        for(int i = 0; i < array2D[0].length;i++){
-//            array2D[2][i] = array1[i] + array2[i];
-//        }
-//        
-//        System.out.println(Arrays.deepToString(array2D));
-
+    public static void main(String[] args){
+        // Pertambah matrix 
+        int [][] a = {
+            {5,6,1},
+            {8,9,3},
+            {18,19,5}
+        };
+        int [][] b = {
+            {1,2,3},
+            {4,5,6},
+            {1,3,4}
+        };
+        printArray(tambah(a,b),"Pertambahan Matrix");
         
+        // Perkalian matrix 
+        
+        int [][] c = {
+            {1,2,3},
+            {4,5,6}
+        };
+        int [][] d = {
+            {5,6},
+            {8,9},
+            {18,19}
+        };
+        // JIKA A . B MAKA JUMLAH BARIS AKAN MENGIKUTI BARIS A DAN JUMLAH KOLOM
+        // AKAN MENGUKUTI MATRIX B
+        printArray(perkalian(c,d),"Perkalian Matrix");
         
     }
-    private static void printArray(int[][] dataArray){
-        int baris = dataArray.length;
-        int kolom = dataArray[0].length;
-        for(int i = 0; i < baris; i++){
-            System.out.print("[");
-            for(int j = 0; j < kolom; j++){
-                System.out.print(dataArray[i][j] + ",");
+    private static int[][] tambah(int[][] a, int[][] b ){
+        int barisA = a.length;
+        int kolomA = a[0].length;
+        int barisB = b.length;
+        int kolomB = b[0].length;
+        int [][] hasilTambah = new int[barisA][kolomA];
+        if (barisA == barisB && kolomA == kolomB){
+            for (int x = 0; x < barisA; x++){
+                for (int y = 0; y< kolomA; y++){
+                    hasilTambah[x][y] = a[x][y] + b[x][y];
+                }
+
             }
-            System.out.print("]\n");
+        }
+        return hasilTambah;
+    }
+    // perkalian matrix syaratnya jumlah kolom matrix pertama == baris matrix kedua
+    private static int[][] perkalian(int[][] c, int[][] d){
+        int barisC = c.length;
+        int kolomC = c[0].length;
+        int barisD = d.length;
+        int kolomD = d[0].length;
+        
+        int buffer;
+        int[][] hasil = new int[barisC][kolomD];
+        // konsepnya kolom matrix pertama == baris matrix kedua
+        if (kolomC == barisD ){
+            for(int i = 0;i < barisC; i++){
+                for(int j = 0; j < kolomD;j++){
+                    buffer = 0;
+                    for (int k = 0; k < kolomC;k++){
+                        buffer += c[i][k] * d[k][j];
+
+                    }
+                    hasil[i][j] = buffer;
+
+                }
+            }
+        }
+        return hasil;
+    }
+    private static void printArray(int[][] dataArray,String Operasi){
+        System.out.println(Operasi);
+        for(int i= 0; i < dataArray.length; i++){
+            System.out.print("[");
+            for(int j=0; j<dataArray[0].length;j++){
+                if(j == dataArray[0].length-1){
+                    System.out.print(dataArray[i][j]);
+                }else{
+                    System.out.print(dataArray[i][j] + ",");
+                }
+            }
+            System.out.println("]");
         }
     }
     
