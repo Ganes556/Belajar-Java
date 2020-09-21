@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jdk-14.0.2_doc-all">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/file jdk/jdk-14.0.2_doc-all.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

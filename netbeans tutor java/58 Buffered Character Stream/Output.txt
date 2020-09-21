@@ -1,0 +1,2 @@
+ini adalah file input dari char input !
+ini juga file input dari string !
