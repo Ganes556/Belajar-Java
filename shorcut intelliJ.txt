@@ -1,0 +1,7 @@
+alt+j = untuk multi caret berdasarkan isi berikutnya / satu persatu
+alt+shift+j = untuk select multi caret semua kata yang sama 
+ctrl+k = komit tanpa komentar
+ctrl+a = komit dengan komentar
+shift+alt+left and right = pidah posisi file 
+shift+alt+down and up = untuk pindahkan posisi isi dari baris 
+shift+ctrl+v = untuk melihat paste yang ada sebelumnya 
