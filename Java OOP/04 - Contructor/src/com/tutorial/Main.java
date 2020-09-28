@@ -1,7 +1,4 @@
 package com.tutorial;
-
-
-
 // kelas tanpa contrictor / class polos
 class Polos{
     String string;
