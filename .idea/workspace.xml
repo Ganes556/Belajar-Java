@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="57828e8c-0c33-4aba-955f-19d0ae87d3c8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/0.1 Nyoba logic/0.1 Nyoba logic.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/01 install java netbeans/01 install java netbeans.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/04 struktur java/04 struktur java.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/05 package in java/program dengan IDE/program dengan IDE.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/05 package in java/program manual/program manual.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/06 perkenalan print dan alur exsekusi/06 perkenalan print dan alur exsekusi.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/07 memahami string[] args/07 memahami string[] args.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/08 type data/08 type data.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/09 type data fundamental atau primitive/09 type data fundamental atau primitive.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/10 operator aritmatic/10 operator aritmatic.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/11 konversi tipe data numeric/11 konversi tipe data numeric.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/12 operator unary(decrement&amp;increment)/12 operator unary(decrement&amp;increment).iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/13 operator assignment/13 operator assignment.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/14 Operator komparasi/14 Operator komparasi.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/15 Operator Logika/15 Operator Logika.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/16 Operator Bitwise/16 Operator Bitwise.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/17 input java/17 input java.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/18 Pengelompokan operasi aritmatika/18 Pengelompokan operasi aritmatika.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/19 Latihan operator logika/19 Latihan operator logika.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/20 if else statement/20 if else statement.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/21 if else if statement/21 if else if statement.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/22 If bersarang(nested if)/22 If bersarang(nested if).iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/23 Switch case/23 Switch case.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/24 Tenary operator/24 Tenary operator.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/25 Latihan kalkulator (if else)/25 Latihan kalkulator (if else).iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/26 Latihan kalkulator (switch case)/26 Latihan kalkulator (switch case).iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/27 While loop/27 While loop.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/28 Do while loop/28 Do while loop.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/29 For loop/29 For loop.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/30 Latihan looping sederhana/30 Latihan looping sederhana.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/31 Latihan deret fibonacci/31 Latihan deret fibonacci.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/32 Break,continue,return (control flow)/32 Break,continue,return (control flow).iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/33 Looping bersarang (kotak dan segitiga)/33 Looping bersarang (kotak dan segitiga).iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/34 Pengenalan fungsi atau method/34 Pengenalan fungsi atau method.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/35 Fungsi atau method void/35 Fungsi atau method void.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/36 Latihan fungsi , menghitung dan menggambar/36 Latihan fungsi , menghitung dan menggambar.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/36.2 Latihan fungsi, menghitung dan menggambar (kotak)/36.2 Latihan fungsi, menghitung dan menggambar (kotak).iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/37 Fungsi rekursif (recursive)/37 Fungsi rekursif (recursive).iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/38 Recursive bercabang/38 Recursive bercabang.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/39 Overload method atau fungsi/39 Overload method atau fungsi.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/40 Pengenalan array/40 Pengenalan array.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/41 Looping array dengan for each/41 Looping array dengan for each.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/42 Mengenal array lebih dalam (pass by reference)/42 Mengenal array lebih dalam (pass by reference).iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/43 Operasi pada array/43 Operasi pada array.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/43.2 Tugas array(Jawaban Sendiri)/43.2 Tugas array(Jawaban Sendiri).iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/44 Jawaban Tugas array (latihan array)/44 Jawaban Tugas array (latihan array).iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/45 Array multiple dimensi/45 Array multiple dimensi.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/46 Array multi dimensi lebih dalam/46 Array multi dimensi lebih dalam.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/47 Latihan Array 2D (Operasi Matrix)/47 Latihan Array 2D (Operasi Matrix).iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/48 Pengenalan String/48 Pengenalan String.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/49 Operasi String/49 Operasi String.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/50 String Builder/50 String Builder.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/51 Format String/51 Format String.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/52 Mengenal Exception -Try,Catch,dan Finally/52 Mengenal Exception -Try,Catch,dan Finally.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/53 Exception pada method (rantai exception)/53 Exception pada method (rantai exception).iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/54 Pengenalan I atau O Stream, input file/54 Pengenalan I atau O Stream, input file.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/55 Byte stream File input &amp; output/55 Byte stream File input &amp; output.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/56 Character Stream/56 Character Stream.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/57 Buffered Byte Stream/57 Buffered Byte Stream.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/58 Buffered Character Stream/58 Buffered Character Stream.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/59 Scanner dan String Tokenizer/59 Scanner dan String Tokenizer.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/61 Project CRUD - Read Data/61 Project CRUD - Read Data.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/62 Project CRUD - Cari Data/62 Project CRUD - Cari Data.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/63 Project CRUD - Tambah Data/63 Project CRUD - Tambah Data.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/64 Project CRUD - Delete Data/64 Project CRUD - Delete Data.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/65 Project CRUD - Update Data/65 Project CRUD - Update Data.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/66  Access Modifier dan Multi File/66  Access Modifier dan Multi File.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutor java kelas terbuka/67 Finalisasi Project CRUD dengan Multi File/67 Finalisasi Project CRUD dengan Multi File.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:\IntelliJ Comunity 2020.2.1\IntelliJ IDEA Community Edition 2020.2.1\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1i7quV0YpgDIvvs8eCCWev1FhrA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="57828e8c-0c33-4aba-955f-19d0ae87d3c8" name="Default Changelist" comment="" />
+      <created>1601269220306</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601269220306</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="131" y="0" key="new project wizard" timestamp="1601269494436">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="131" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1601269494436" />
+  </component>
+</project>
