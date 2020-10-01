@@ -1,7 +1,5 @@
 package com.tutorial;
 
-import jdk.javadoc.internal.doclets.formats.html.SourceToHTMLConverter;
-
 class Mahasiswa{
     String nama = "nama Asli";
     String NIM;
