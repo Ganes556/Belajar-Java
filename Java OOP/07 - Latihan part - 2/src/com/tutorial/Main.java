@@ -102,7 +102,8 @@ public class Main {
         System.out.println("===============\nTurn - 1\n");
         player1.attack(player2);         
         System.out.println("===============\nTurn - 2\n");
-        player2.attack(player1);
+        player1.attack(player2);
+        // player1.attack(player2);
 
         System.out.println("===============");
     }
