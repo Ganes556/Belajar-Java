@@ -8,6 +8,11 @@ class Display{
     Display(String name){
         this.name = name;
     }
+    void setType(String setType){
+        // type = setType; // alternatif 1
+        // this.type = setType; // alternatif 2
+        Display.type = setType; // alternatif 3, recomended
+    }
 
     public void show(){
         System.out.println(this.name);
@@ -22,7 +27,7 @@ public class Main{
         display2.show();
 
         
-
+        display1.setType("Contoh Bro22 !");
         // tampilkan vairable class static
         System.out.println("\nStatic variable");
         System.out.println(display1.type);

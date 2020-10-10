@@ -64,7 +64,7 @@ class Player{
         // player attacking will to level up 
         this.levelUp();
         // turn uping in 2 player 
-        this.nextTurn();
+        Player.nextTurn();
         
     }
 
@@ -103,8 +103,8 @@ class Player{
     }
 
     // turn up
-    private int nextTurn(){
-        return this.turn++;
+    private static int nextTurn(){
+        return Player.turn++;
     }
 
     // setter
