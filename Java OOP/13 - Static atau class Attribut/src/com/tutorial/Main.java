@@ -26,8 +26,8 @@ public class Main{
         Display display2 = new Display("yuyun2");
         display2.show();
 
-        
-        display1.setType("Contoh Bro22 !");
+        // rubah variable static dari luar
+        display1.setType("Monitoro22 !");
         // tampilkan vairable class static
         System.out.println("\nStatic variable");
         System.out.println(display1.type);
