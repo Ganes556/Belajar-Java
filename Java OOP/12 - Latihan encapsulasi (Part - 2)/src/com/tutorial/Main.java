@@ -1,46 +1,111 @@
 package com.tutorial;
 
+
+
 class Player{
+    // string variable
     private String name;
+    // boolean variable
+    private boolean isAlive;
+    // int variable
     private int baseHealth;
     private int baseDamage;
-    private Armor armor;
-    private Weapon weapon;
-    private int level;
+    private int level;    
     private int incrementHealth;
     private int incrementDamage;
-    private int health;
+    private int totalDamage;
+    private int turn;
+    // object member
+    private Armor armor;
+    private Weapon weapon;
+    
     Player(String name){
         this.name = name;
         this.baseHealth = 100;
         this.baseDamage = 50;
+        this.turn = 1;
         this.level = 1;
         this.incrementHealth = 20;
-        this.incrementDamage = 20;
+        this.incrementDamage = 20;      
+        this.isAlive = true;
     }
-
+    private String getName(){
+        return this.name;
+    }
+ 
+    private int getHealth(){
+        return this.maxHealth() - this.totalDamage;        
+    }
+    // display method
     public void display(){
-        System.out.println("Nama : " + this.name);        
-        System.out.println("Level : " + this.level);
-        System.out.println("Max Health : " + this.maxHealth());     
-        System.out.println("Attack Power : " + this.attackPower() + "\n");   
+        
+        System.out.printf("\nNama          : %s \n" ,this.name);        
+        System.out.printf("Level         : %s \n" ,this.level);
+        System.out.printf("Health        : %d/%d \n",this.getHealth(),this.maxHealth());
+        System.out.printf("Attack Power  : %s \n",this.attackPower()); 
+        // checking live or not using ternary 'if' operator
+        String status = (this.isAlive == true ? "Alive" : "Died\n" + "****" + this.name + " Lose ****");
+        System.out.printf("Player Status : %s \n",status);         
+        
     }
     
     public void attack(Player opponent){
-        int attack = this.attackPower();
-        int health = opponent.maxHealth();
-
-        System.out.println(this.name + " attack " + opponent.name);
-        System.out.println(opponent.name + " gets damage " + attack);
-
-        System.out.println("Sisa Health dari " + opponent.name + " = " + (health-attack) + "hp");
+        System.out.println("Pertempuran dimulai Turn " + this.turn);
+        this.display();
+        opponent.display();
+        // hitung damage
+        int damage = this.attackPower(); 
+        // display info about launch attack
+        System.out.println(this.name + " is attacking " + opponent.getName() + " with damage " + damage);
+        
+        // musuh bertahan dengan darah dan armornya
+        opponent.defence(damage);
+        // player attacking will to level up 
         this.levelUp();
+        // turn uping in 2 player 
+        this.nextTurn();
+        opponent.nextTurn();        
+       
         
     }
- 
 
+    private void defence(int damage){   
+    // recieve damage            
+        // create variable total damage 
+        int deltaDamage;
+        int defancePower = armor.getDefencePower();
+        System.out.println(this.name + " Defance Power = " + defancePower);
+        if (damage > defancePower){
+            deltaDamage = damage - defancePower;    
+        }else{ 
+            deltaDamage = 0;
+        }
+        // display information total damage yg dihasilkan
+        System.out.println("damage earned = " + deltaDamage);
+
+        // addding damage to be total damage
+        this.totalDamage += deltaDamage;
+
+    // checking player isAlive or not
+        if (getHealth() <= 0){
+            this.isAlive = false;           
+            // make the health to be zero couse is player died
+            this.totalDamage = this.maxHealth();
+        }
+        // display information about enemy after player attacking
+        this.display();    
+        System.out.print("\n");
+
+        
+    }
+    
     private void levelUp(){
         this.level++;
+    }
+
+    // turn up
+    private int nextTurn(){
+        return this.turn++;
     }
 
     // setter
@@ -51,10 +116,10 @@ class Player{
         this.weapon = attack;
     }
 
-    public int maxHealth(){
+    public int maxHealth(){        
         return this.baseHealth + this.incrementHealth*this.level + this.armor.getAddHealth();
     }
-    public int attackPower(){
+    private int attackPower(){
         return this.baseDamage + this.incrementDamage*this.level + this.weapon.getAddAttack();
     }
     
@@ -73,7 +138,9 @@ class Armor{
     public int getAddHealth(){    
         return this.baseHealth + this.strength * 10;
     }
-    
+    public int getDefencePower(){
+        return this.strength*5;
+    }
 }
 class Weapon{
     private String name;
@@ -86,42 +153,34 @@ class Weapon{
     }
     // getter
     public int getAddAttack(){        
-        return  this.attack * 5 + this.baseAttack; // 1 damage = 5 attack power 
+        return  this.attack * 2 + this.baseAttack; // 1 damage = 5 attack power 
     }
     
 }
 
 
 
-// PR BUAT SEBUAH PLAYERNYA BISA SALING SERANG DAN SI PLAYER AKAN LEVEL UP BILA SI PLAYER MENYERANG 
-// TAMBAHAN KELUARANNYA ISI DAMAGE YANG DITERIMA, HEALTH ACTUALNYA/ HEALTH SAAT INI
 public class Main {
     public static void main(String[] args) {
-        
+        // create player1 object 
         Player player1 = new Player("Axe");
         Armor armor1 = new Armor("Baju Keras",5,100);
         Weapon weapon1 = new Weapon("Kriss Sakti",2,100);
         // men set armor ke write only
         player1.setArmor(armor1);
         player1.setWeapon(weapon1);
-
+        // create player2 object 
         Player player2 = new Player("Cristal Maiden");
         Armor armor2 = new Armor("Gaun",5,50);
-        Weapon weapon2 = new Weapon("Kriss Sakti",2,10);
+        Weapon weapon2 = new Weapon("Pecut Sakti",2,10);
         // men set armor ke write only
 
         player2.setArmor(armor2);
         player2.setWeapon(weapon2);
-        // player1.display();
         
-
         player1.attack(player2);
-        System.out.println("==============================");
-        player1.attack(player2);
-
-        // player1.display();
-        // player1.attack(player2);
-        // player2.display();
+        player2.attack(player1);
+        player1.attack(player2);        
         
     }
     
