@@ -1,4 +1,4 @@
-
+package com.tutorial;
 class Display{
     // variable class static 
     // adalah variable yang tersetting bareng-bareng pada class ini
