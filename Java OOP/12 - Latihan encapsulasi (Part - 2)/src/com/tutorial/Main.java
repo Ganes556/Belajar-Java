@@ -14,7 +14,8 @@ class Player{
     private int incrementHealth;
     private int incrementDamage;
     private int totalDamage;
-    private int turn;
+    // static variable for all in class / bisa terseting bareng-bareng 
+    private static int turn;
     // object member
     private Armor armor;
     private Weapon weapon;
@@ -64,8 +65,6 @@ class Player{
         this.levelUp();
         // turn uping in 2 player 
         this.nextTurn();
-        opponent.nextTurn();        
-       
         
     }
 
