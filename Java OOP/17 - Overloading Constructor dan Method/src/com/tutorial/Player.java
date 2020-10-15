@@ -3,6 +3,7 @@ package com.tutorial;
 public class Player {
     private static int tambahPlayer;
     // overloading = nama sama spesifikasi dan kelakuan beda
+    // overloading contructor
     // opsi 1
     Player(String name){
         this.tambahPlayer++;

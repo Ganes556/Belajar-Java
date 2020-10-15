@@ -3,7 +3,7 @@ package com.tutorial;
 
 
 public class MathKali {
-
+    // overloading pada method biasa
     int kali (int a, int b ){
         return a * b;
     }

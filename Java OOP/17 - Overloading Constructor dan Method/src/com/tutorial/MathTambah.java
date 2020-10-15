@@ -1,5 +1,6 @@
 package com.tutorial;
 class MathTambah{
+    // overloading pada method static
     protected static int tambah(int a, int b){
         return a + b;
     }

@@ -1,8 +1,7 @@
 package com.tutorial;
 public class Main {
     public static void main(String[] args) {
-        // yang kosong deklarasi opsi2 
-        // isi nama deklarasi opsi1
+     
         // overloading pada constructor
         System.out.println("Overloading pada contructor!");
         Player player1 = new Player(); 
