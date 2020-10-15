@@ -1,7 +1,7 @@
 package com.terminal;
 // visibilitas untuk semua
 public class Console {
-    public static void iniContoh(String message){
+    public static void log(String message){
         System.out.println(message);
     }
 }

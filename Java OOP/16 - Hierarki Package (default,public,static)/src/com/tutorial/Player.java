@@ -7,9 +7,9 @@ class Player {
     }
     public void show(){
         // System.out.println(this.name);
-        Console.iniContoh(this.name);
+        Console.log(this.name);
     }
     String getName(){
-        return name;
+        return this.name;
     }
 }

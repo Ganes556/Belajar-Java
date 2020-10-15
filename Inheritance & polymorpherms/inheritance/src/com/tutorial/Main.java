@@ -1,19 +1,10 @@
 package com.tutorial;
-class Animal{
-    public void thisAnimal(){
-        System.out.println("Ini adalah Animal !");
-    }
-}
+import com.utility.player.*;
 
-class dog extends Animal{
-    public void Dog(){
-        System.out.println("dog sound - whoff whoff");
-    }
-}
+class Main{
+    public static void main(String args[]){
+        PlayerStrength player1 = new PlayerStrength("Ucup","Kaos");    
+        player1.show();
 
-
-public class Main {
-    public static void main(String[] args) throws Exception {
-        
     }
 }
