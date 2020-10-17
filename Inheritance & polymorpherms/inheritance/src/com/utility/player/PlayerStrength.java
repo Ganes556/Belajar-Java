@@ -1,31 +1,28 @@
 package com.utility.player;
-
-
-
-
+import com.utility.atribut.Armor;
 
 public class PlayerStrength extends Player{ // cannot extends if the super class has a parameter in contructor
     
-    public PlayerStrength (String name,String nameArmor){
-        
+    public PlayerStrength (String name){
+        Player.tambahPlayer++;
         super.name = name;
         super.health = 300;
         super.attack = 8;
+        
         // check default armor 
-        checkDeafultArmor(nameArmor);
+        super.nameArmor = nameArmor;
+        
     }
-    private void checkDeafultArmor(String nameArmor){
-        if(nameArmor != null){
-            super.nameArmor= nameArmor;
-        }else{
-            super.nameArmor = "Default Armor";
-        }
+
+    // overloading player with default player
+    public PlayerStrength(){
+        super.defaultPlayer();       
     }
     
-    // @Override
-    // protected void setArmor(Armor1 test){
-
-    // }
+    @Override
+    public void setArmor(Armor armor){
+        
+    }
     
    
 }

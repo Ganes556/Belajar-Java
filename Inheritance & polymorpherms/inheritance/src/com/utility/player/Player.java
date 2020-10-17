@@ -1,5 +1,7 @@
 package com.utility.player;
-import com.utility.atribut.*;
+import com.utility.atribut.Armor;
+
+
 public class Player {
     // deklarasi string
     protected String name;
@@ -9,23 +11,27 @@ public class Player {
     protected int health;
     protected int attack;
     
-    // deklarasi object
-    private Armor armor;
-    protected Player(){
-        this.name = "Player1";
+    
+    // static variable
+    protected static int tambahPlayer;
+    // private Armor armor;
+
+    protected void defaultPlayer(){
+        Player.tambahPlayer++;
+        // name
+        this.name = "Player " + tambahPlayer;
+        // perkakas
         this.health = 200;
         this.attack = 10;
-    }
-    // set armor used
-    protected void setArmor(Armor armor) {
         
-        this.armor = armor;
+    }
+    
+    public void setArmor(Armor armor){
+        
     }
 
     public void show(){
         System.out.println(this.name);
         System.out.println(this.health);
-        System.out.println(this.nameArmor);
-        
     }
 }
