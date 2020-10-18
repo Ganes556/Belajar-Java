@@ -8,9 +8,7 @@ public class PlayerStrength extends Player{ // cannot extends if the super class
         super.name = name;
         super.health = 300;
         super.attack = 8;
-        
-        // check default armor 
-        super.nameArmor = nameArmor;
+               
         
     }
 
@@ -18,11 +16,8 @@ public class PlayerStrength extends Player{ // cannot extends if the super class
     public PlayerStrength(){
         super.defaultPlayer();       
     }
-    
     @Override
     public void setArmor(Armor armor){
         
     }
-    
-   
 }
