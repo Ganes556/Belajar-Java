@@ -71,7 +71,7 @@ public class Main {
         
         System.out.println("\nWajik dengan menggunakan matriknya");
         int panjang = 9;
-	int lebar = 9;
+	    int lebar = 9;
         for(int i = 0;i<9;i++){ 
             for(int j=0;j<9;j++){ 
                 if ((j+ i < panjang/2) || (j-i > panjang/2) || (i-j > panjang/2 ) || (j + i > (panjang/2)*3)){
